@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Style Hero</title>
+  <style>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background: linear-gradient(180deg, #111643, #0e1376);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.auth a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.signup-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 14px;
+  border-radius: 10px; 
+}
+.hero {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.1);
+  padding: 25px 40px;
+  background-color: rgb(9, 9, 143);
+  border-radius: 35px;
+  margin-bottom: 25 px;
+  font-size: 19px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: auto;
+  color: #d1d5ff;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+
+.cta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cta > input {
+  padding: 12px;
+  width: 240px;
+  border-radius: 6px;
+  border: none;
+}
+
+.green-btn {
+  background: #307a45;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  
+}
+
+.outline-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  
+}
+
+  </style>
+
+
+</head>
+<body>
+
+  
+  <header class="navbar">
+
+
+    <div> <img src="https://as2.ftcdn.net/jpg/02/50/30/59/1000_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg" alt=" github" style="width: 35px; height: 35px;"></div>
+
+    <nav>
+      <a href="#">Platform</a>
+      <a href="#">Solutions</a>
+      <a href="#">Resources</a>
+      <a href="#"> Opensource</a>
+      <a href="#"> Enterprise</a>
+      <a href="#">Pricing</a>
+      <a href="#"></a>
+    </nav>
+
+    <div class="a">
+     
+      <input type="search" placeholder="🔍Search or Jump to... " style="padding: 5px; background-color: transparent; width: 300px;"> &nbsp;
+      <button class="signin" style="padding:8px ; ">Sign in</button> &nbsp;
+      <button class="signup" style="padding: 8px;  ">Sign up</button> 
+
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <p class="badge">🚀 Explore the latest tools from Universe ’25</p>
+
+    <h1 style="font-size: 65px;">The future of building happens <br> together</h1>
+
+    <p class="subtitle">
+      Tools and trends evolve, but collaboration endures. With GitHub,
+        <br>developers and code come together on one platform.
+    </p>
+
+    <div class="cta">
+      <input type="email" placeholder="Enter your email" style="padding: 15px;">
+      <button class="green-btn">Sign up for GitHub</button> 
+      <button class="outline-btn">Try GitHub Copilot free</button>
+    </div>
+  </section>
+
+</body>
+</html>
